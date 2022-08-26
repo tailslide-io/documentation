@@ -51,7 +51,7 @@ const config = {
         title: 'Tailslide Documentation',
         logo: {
           alt: 'Tailslide Logo',
-          src: '../img/tailslide_graphic_color.svg',
+          src: '/img/tailslide_graphic_color.svg',
         },
         items: [
           {
