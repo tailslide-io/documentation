@@ -9,7 +9,7 @@ const config = {
   title: 'Tailslide Documentation',
   tagline: 'A feature flag framework for easier code deployment with automated failure protection.',
   url: 'https://tailslide-io.github.io',
-  baseUrl: 'documentation',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/tailslide_logo.ico',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'tailslide-io', // Usually your GitHub org/user name.
-  projectName: '/documentation/', // Usually your repo name.
+  projectName: 'documentation', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
