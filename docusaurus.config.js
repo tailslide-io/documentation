@@ -9,7 +9,7 @@ const config = {
   title: 'Tailslide Documentation',
   tagline: 'A feature flag framework for easier code deployment with automated failure protection.',
   url: 'https://tailslide-io.github.io',
-  baseUrl: '/documentation/',
+  baseUrl: 'documentation',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/tailslide_logo.ico',
