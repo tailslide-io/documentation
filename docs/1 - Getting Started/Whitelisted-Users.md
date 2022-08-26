@@ -8,3 +8,6 @@ White-Listed Users can be added to a flag within the frontend UI, and this prope
 
 If a `userContext` is included within the list of white-listed users of a particular flag, then that specific white-listed user will be shown the new feature. This feature of Tailslide allows developers to easily test their new features in production without affecting the regular user experience.
 
+<div style={{textAlign: 'center'}}>
+  <img src={require('./../assets/rolloutAndWhitelist.gif').default} alt='Gif of Tailslide UI changing rollout percentage and whitelisted user' />
+</div>

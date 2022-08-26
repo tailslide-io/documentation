@@ -15,18 +15,24 @@ To add a flag, first click into the app that the flag will should belong to. Thi
 
 ## Toggling a flag
 
-Click the toggle icon on the right of the flag to activate and deactivate it.
+Click on the toggle icon on the right of the flag to activate and deactivate it.
 
-#### need toggle video
+<div style={{textAlign: 'center'}}>
+  <img src={require('./../assets/toggleFlag.gif').default} alt='Gif of Tailslide UI toggling a flag' />
+</div>
 
 ## Edit a flag
 
 Click on a flag to bring up information about that flag. Click the edit button to bring up the add and edit flag modal. Make any desired changes and click save.
 
-#### need edit flag video
+<div style={{textAlign: 'center'}}>
+  <img src={require('./../assets/editFlag.gif').default} alt='Gif of Tailslide UI editing a flag' />
+</div>
 
 ## Deleting a flag
 
 Click on a flag to bring up the information screen. Use the delete button to remove that flag.
 
-#### need delete flag video
+<div style={{textAlign: 'center'}}>
+  <img src={require('./../assets/deleteFlag.gif').default} alt='Gif of Tailslide UI deleting a flag' />
+</div>
