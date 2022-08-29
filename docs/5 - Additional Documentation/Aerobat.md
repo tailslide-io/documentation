@@ -4,7 +4,9 @@ sidebar_position: 3
 
 # Aerobat
 
-## Usage
+The documentation in this section is for users that require further details on the individual Tailslide Aerobat component.
+
+## Overview
 
 Aerobat is responsible for querying the Redis Timeseries database for each live circuit within an application, to evaluate current error rates against developer-configured error thresholds.
 
@@ -14,11 +16,11 @@ Aerobat will poll the Redis Timeseries database at a developer-defined interval 
 
 Once a circuit is tripped open, Aerobat will wait a developer-defined amount of time before attempting to expose users to the feature again. Once that time has passed, users will be directed to the feature at a developer-defined ‘Recovery Increment’ percentage until the feature is available to the desired number of users.
 
-Note: all developer-defined variables can be specified via `Tower` front-end
+Note: all developer-defined variables can be specified via Tower front-end
 
-## Run the app individually
+## Running Aerobat Locally
 
-Clone main branch of repository
+Clone main branch of repository [here](https://github.com/tailslide-io/aerobat)
 
 Sample `.env` file to add into the root directory
 
@@ -34,9 +36,10 @@ REDIS_TIME_WINDOW=3000
 ```
 
 Within the root directory run `npm install`
+
 Run `npm start`
 
 
 ## NATS JetStream and Redis Timeseries Database
 
-Both a NATS JetStream and a Redis Timeseries Database will need to be running. See instructions in Tailslide `Tower` README for how to start each.
+Both a NATS JetStream and a Redis Timeseries Database will need to be running. See instructions in Tailslide [Tower](https://github.com/tailslide-io/tower) for how to start each.

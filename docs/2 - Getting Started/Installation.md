@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Installation
 
-To install and run Tailslide, GitHub and Docker are required.
+To install and run Tailslide, [GitHub](https://github.com/) and [Docker](https://www.docker.com/) are required.
 
 ## Clone GitHub Repository
 ```
