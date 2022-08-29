@@ -7,7 +7,7 @@ The creating, updating, and deleting of feature flags occurs via the application
 
 ## Create a new flag
 
-To add a flag, first click into the app that the flag will should belong to. This brings up a screen showing all of the feature flags related to that particular app. Click on the orange addition icon to bring up the add and edit flag modal. Enter a name and description for the new flag and click create.
+To add a flag, first click into the app that the flag will belong to. This brings up a screen showing all of the feature flags related to that particular app. Click on the orange addition icon to bring up the add and edit flag modal. Enter a name and description for the new flag and click create.
 
 <div style={{textAlign: 'center'}}>
   <img src={require('./../assets/createFlag.gif').default} alt='Gif of Tailslide UI creating new flag' />

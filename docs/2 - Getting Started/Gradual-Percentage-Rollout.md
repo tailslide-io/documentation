@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Gradual Percentage rollout
+# Gradual Percentage Rollout
 
 Tailslide also allows for the gradual rollout of specific features to a subset of the user base. This is done via hashing. 
 
