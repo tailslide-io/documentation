@@ -17,7 +17,9 @@ Running the command `SDK_KEY=your_SDK_KEY docker-compose up` will create a singl
 
 To start the Tailslide application:
 
-`SDK_KEY=your_SDK_KEY docker-compose up`
+```
+SDK_KEY=your_SDK_KEY docker-compose up
+```
 
 ## Access the User Interface
 Visit http://localhost:3001 and start creating your own feature flags!

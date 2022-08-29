@@ -2,14 +2,10 @@
 slug: /
 ---
 
-# Architecture
+# Introduction
+<div style={{textAlign: 'center'}}>
+  <img src="https://user-images.githubusercontent.com/73451363/187207442-bae7ea26-7eac-4cab-8806-42779629c653.png" alt="Tailslide logo" width="400" />
+</div>
 
-Tailslide’s architecture was built to facilitate two major uses: the feature flag ruleset data transmission and automated circuit breaking. 
-
-There are Three key pieces of Tailslide’s architecture created by the team. These include: 
-
-1. **Tower** - a full-stack application that handles the CRUD functionality related to feature flag management  
-3. **Tailslide SDKs** - provides user microservices with flag state to ensure appropriate logic evaluation at runtime and emission of circuit-breaking data
-4. **Aerobat** - a lightweight Node application responsible for all circuit-breaking logic
-
-Tailslide also utilizes the following open-source software: NATs JetStream, PostgreSQL, and Redis Timeseries Database.
+Welcome to Tailslide, a light-weight feature flag management tool with automated circuit-breaking.
+Tailslide is a self-hosted application that can be installed on your own server and run with just a single command.
