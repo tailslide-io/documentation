@@ -13,5 +13,5 @@ Because effective hashing functions uniformly distribute the data across the ent
 Note that the gradual rollout validation occurs after the white-listed user check - see the logic flow evaluation tree.
 
 <div style={{textAlign: 'center'}}>
-  <img src={require('./../assets/rollout_hash_diagram.png').default} alt='Gif of Tailslide UI creating new flag' />
+  <img src={require('./../assets/rollout_hash_diagram.png').default} width="500" alt='Gif of Tailslide UI creating new flag' />
 </div>
