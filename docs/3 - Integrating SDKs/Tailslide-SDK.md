@@ -12,7 +12,12 @@ import TabItem from '@theme/TabItem';
 
 ---
 
-Install the Tailslide npm package with `npm install tailslide`
+Install the Tailslide npm package with
+- Node.js: `npm install tailslide`
+- Go: `go get github.com/tailslide-io/tailslide.go`
+- Python: `pip install tailslide-sdk`
+- Node.js: `gem install tailslide`
+
 
 ## Basic Usage
 
